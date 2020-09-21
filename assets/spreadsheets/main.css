@@ -1,0 +1,238 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body{
+  font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+.main-container{
+  background-image: url("cleaner.png");
+  background-repeat: no-repeat;
+  background-position: 200% 50%;
+  background-color: #93E0E9;
+  /* height: 84vh; */
+  padding: 60px 0 0 150px;
+}
+
+.container
+{
+    width: 100%;
+}
+
+.grid
+{
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+/* .col-1-2
+{
+  width: 50%;
+  
+} */
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.logo
+{
+    float: left;
+}
+
+.alt-nav
+{
+  float: right;
+  font-size: 14px;
+}
+
+.alt-nav a{
+  color: rgb(92, 91, 91);
+  margin-right: 25px;
+}
+
+.alt-nav a:first-child
+{
+  padding-bottom: 5px;
+  border-bottom: 2px solid #000;
+}
+
+.alt-nav a:last-child
+{
+  color: #2F68F2;
+  margin-right:150px;
+}
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+.nav{
+  display: inline-block;
+  margin-left: 300px;
+}
+.nav li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav li a{
+  text-transform: uppercase;
+  color: rgb(92, 91, 91);
+  font-size: 15px;
+}
+.nav li a:hover{
+  padding-bottom: 5px;
+   border-bottom: 2px solid #000;
+   color: #000;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a{
+  
+  text-decoration: none;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+.btn
+{
+  padding:10px 15px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.btn-alt {
+  display: inline-block;
+  background: #2F68F2;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 40px;
+  font-family: "Helvetica";
+  padding: 15px 50px;
+}
+/*
+  ========================================
+  Images
+  ========================================
+*/
+
+/*
+  ========================================
+  HERO
+  ========================================
+*/
+.hero{
+  padding-top: 50px;
+  font-family: "Helvetica Neue";
+}
+
+.hero h1{
+  font-size: 80px;
+}
+
+.hero_text
+{
+  color: rgb(92, 91, 91);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.num
+{
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Helvetica";
+}
+
+.address
+{
+  margin-top: 165px;
+  padding-bottom: 30px;
+  font-weight: 600;
+}

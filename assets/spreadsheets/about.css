@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body{
+    font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+.main-container
+{
+    background-color: #93E0E9;
+    padding-top: 60px;
+}
+.container
+{
+ margin: 0 auto;
+ width: 1200px;
+}
+.grid
+{
+  display: inline-flex;
+  padding-top: 50px;
+}
+.hero
+{
+  padding-top: 150px;
+  width: 50%;
+  font-family: "Helvetica Neue";
+}
+.hero-img
+{
+  width: 50%;
+}
+.hero-img img
+{
+  width: 100%;
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.logo
+{
+    float: left;
+}
+
+.alt-nav
+{
+  float: right;
+  font-size: 14px;
+}
+
+.alt-nav a{
+  color: rgb(92, 91, 91);
+  margin-right: 25px;
+}
+
+.alt-nav a:first-child
+{
+  padding-bottom: 5px;
+  border-bottom: 2px solid #000;
+}
+
+.alt-nav a:last-child
+{
+  color:#2F68F2;
+  margin-right:0;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a{
+  color: rgb(92, 91, 91);
+  text-decoration: none;
+  }
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+.nav{
+    display: inline-block;
+    margin-left: 300px;
+  }
+  .nav li{
+      display: inline-block;
+      margin: 0 20px;
+  }
+  .nav li a{
+    text-transform: uppercase;
+    color: rgb(92, 91, 91);
+    font-size: 15px;
+  }
+  .nav li a:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000;
+    color: #000;
+  }
+  .scroll
+  {
+    margin-top: 350px;
+    margin-bottom: 0;
+    font-size: 19px;
+  }
+  .scroll span{
+    padding-right: 7px;
+  }
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+.btn
+{
+  padding:10px 15px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.btn-alt{
+  color: #000;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+.hero h1{
+  font-size: 80px;
+}
+
+.hero_text
+{
+  color: rgb(92, 91, 91);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+}
